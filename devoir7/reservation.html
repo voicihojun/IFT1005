@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>complexe santa maria</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial- scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Complexe Santa Maria</h1>	
+		</header>
+		<nav>
+			<ul>
+				<li><a href="acceuil.html">Acceuil</a></li>
+				<li><a href="yourtes.html">Yourtes</a></li>
+				<li><a href="">Activités</a></li>
+				<li><a href="reservation.html">Réservations</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div id="main_text">
+				<h2>Réservations au Complexe Santa Maria</h2>
+				<h3>Contactez nous</h3>
+				<p>Les informations obligatoires sont marquées d'un astérisque(*).</p><br>
+				<!-- I used local web server. the copied server.php file is in this directory. -->
+				<form id="myform" action="http://127.0.0.1:8080/server.php" method="post">
+					<label for="prenom">* Prénom:</label>
+					<input type="text" name="prenom" id="prenom"><br>
+					<label for="nom">* Nom:</label>
+					<input type="text" name="nom" id="nom"><br>
+					<label for="email">* Email:</label>
+					<input type="email" name="email" id="email"><br>
+					<label for="tel">Téléphone:</label>
+					<input type="tel" name="tel" id="tel"><br>
+					<label for="date">Date d'arrivé:</label>
+					<input type="date" name="date" id="date"><br>
+					<label for="nuits">Nuit:</label>
+					<input type="number" name="nuits" id="nuits" min="1" max="30"><br>
+					<label for="nuits">* Commentaires:</label>
+					<textarea name="comments" id="comments" rows="4" cols="20"></textarea><br>
+					<!-- when i put the name and id as submit(id="submit"), the submit command in the js doesn't work.  --> 
+					<input type="button" value="Soumettre" onclick="javascript:checkDate()"><br>	
+				</form>
+			</div>
+		</main>
+		<footer>
+			<small><i>Copyright &copy; 2018 Complexe Santa Maria</i></small><br>
+			<em><a href="mailto:hojun00@hotmail.com">hojun00@hotmail.com</a></em>
+		</footer>
+		<script type="text/javascript" src="reservation.js"></script>
+		
+	</div>
+	
+</body>
+</html>

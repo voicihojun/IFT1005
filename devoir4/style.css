@@ -1,0 +1,111 @@
+
+
+body {
+	width: 80%;
+	margin : auto;
+	font-family: Verdana, Arial, sans-serif;
+	color: #666666;
+	background-image: url('./images/background.jpg');	
+}
+
+#container {
+	margin: 30px 0px;
+	box-shadow: 5px 5px 5px;
+	background-color : #90C7E3; 
+}
+
+#main_text {
+	padding: 30px;
+}
+
+nav {	
+	float: left;
+	width : 190px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+}
+
+main {
+	background-color: white;
+	margin-left: 190px;
+}
+
+h1 {
+	color : #FFFFFF;
+	background-color: #000033;
+	padding : 20px;
+	margin-bottom: 0;
+	background-image: url('./images/sunset.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+
+h2 {
+	margin-top:0;
+}
+
+nav ul {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+h2 {
+	color : #3399CC;
+}
+
+span {
+	color : #000033;
+	font-size : 1.1em;
+	font-weight: bold;
+}
+
+footer {
+	text-align : center;
+	margin-left: 190px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+dt {
+	color : #000033;
+}
+
+img {
+	width:100%;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav li {
+	padding: 2px;
+}
+
+nav li a {
+	color:#000033;
+}
+
+a:visited {
+	color: beige;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+
+/*
+- #000033 dark blue
+- #3399CC blue
+- #90C7E3 skyblue
+- #666666 grey 
+*/
+
+
+
+
+

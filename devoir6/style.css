@@ -1,0 +1,210 @@
+
+
+body {
+	width: 80%;
+	margin-left : auto;
+	margin-right : auto;
+	font-family: Verdana, Arial, sans-serif;
+	color: #666666;
+	background-image: url('./images/background.jpg');	
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#container {
+	box-shadow: 5px 5px 5px;
+	background-color : #90C7E3; 
+}
+
+#main_text {
+	padding: 30px;
+}
+
+nav {	
+	float: left;
+	width : 190px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+}
+
+main {
+	background-color: white;
+	margin-left: 190px;
+}
+
+h1 {
+	color : #FFFFFF;
+	background-color: #000033;
+	padding : 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-image: url('./images/sunset.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+
+h2 {
+	margin-top:0;
+}
+
+nav ul {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+h2 {
+	color : #3399CC;
+}
+
+span {
+	color : #000033;
+	font-size : 1.1em;
+	font-weight: bold;
+}
+
+footer {
+	text-align : center;
+	margin-left: 190px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+dt {
+	color : #000033;
+}
+
+img {
+	width:100%;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav li {
+	padding: 2px;
+}
+
+nav li a {
+	color:#000033;
+}
+
+a:visited {
+	color: beige;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+table, th, td {
+	border: 1px solid #90C7E3;
+
+}
+
+table {
+	border-collapse: collapse;
+	margin-left : 25px;
+	margin-right : 25px;
+
+}
+
+th, td {
+	padding: 5px;
+	text-align: center;
+}
+
+.desc {
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background: #D9ECF9;
+}
+
+h3 {
+	color: #000033;
+}
+
+label {
+	float: left;
+	width: 200px;
+
+}
+
+input {
+	display: block;
+	margin-left: 200px;
+}
+
+textarea {
+	margin-bottom: 10px;
+}
+
+@media only all and (max-width: 1024px) {
+	body {
+		margin: 0;
+		width: 100%;
+	}
+
+	nav {
+		float:none;
+		width:auto;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 0.2em;
+		padding-right: 0.8em;
+	}
+
+	main {
+		margin:0;
+	}
+
+	footer {
+		margin:0;
+	}
+}
+
+@media only all and (max-width: 768px) {
+	nav li {
+		display: block;
+		border-bottom: 1px solid black;
+		margin: 0;
+	}
+
+	nav ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	img {
+		display: none;
+	}
+
+	#main_text {
+		padding: 0.8em 0 0 0.2em;
+		font-size: 0.8em;
+	}
+
+	footer {
+		font-size: 0.8em;
+	}
+
+}
+
+/*
+- #000033 dark blue
+- #3399CC blue
+- #90C7E3 skyblue
+- #666666 grey 
+*/
+
+
+
+
+
